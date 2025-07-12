@@ -89,7 +89,7 @@ class checksorted {
     public static void main(String args[]) {
 
         int arr1[] = {1, 2, 3, 4, 5};
-        int arr2[] = {1, 6, 3, 4, 5};
+        // int arr2[] = {1, 6, 3, 4, 5};
         if(checkIfIncreasing(arr1, 0)) {
             System.out.println("Strictly Increasing");
         } else {
@@ -166,7 +166,7 @@ class subseq {
     }
 
     public static void main(String args[]) {
-        String str1 = "abc";
+        // String str1 = "abc";
         String str2 = "aaa";
         printSubseq(str2, 0, ""); 
     }
@@ -190,7 +190,7 @@ class unique_subseq {
     }
 
     public static void main(String args[]) {
-        String str1 = "abc";
+        // String str1 = "abc";
         String str2 = "aaa";
         HashSet<String> allSubseq = new HashSet<>();
         printSubseq(str2, 0, "", allSubseq); 

@@ -1,6 +1,6 @@
 //patterns
 
-class p1 {
+class pat1 {
     public static void main(String args[]) {
         int m = 5;
         int n = 4;
@@ -13,7 +13,7 @@ class p1 {
     }
 }
 
-class p2 {
+class pat2 {
     public static void main(String args[]) {
         int m = 5;
         int n = 4;
@@ -30,7 +30,7 @@ class p2 {
     }
 }
 
-class p3 {
+class pat3 {
     public static void main(String args[]) {
         int n = 4;
       
@@ -43,7 +43,7 @@ class p3 {
     }
 }
 
-class p4 {
+class pat4 {
     public static void main(String args[]) {
         int n = 4;
       
@@ -56,7 +56,7 @@ class p4 {
     }
 }
 
-class p5 {
+class pat5 {
     public static void main(String args[]) {
         int n = 4;
       
@@ -72,7 +72,7 @@ class p5 {
     }
 }
 
-class p6 {
+class pat6 {
     public static void main(String args[]) {
         int n = 5;
       
@@ -85,7 +85,7 @@ class p6 {
    }
 }
 
-class p7 {
+class pat7 {
     public static void main(String args[]) {
         int n = 5;
       
@@ -98,7 +98,7 @@ class p7 {
    }
 }
 
-class p8 {
+class pat8 {
     public static void main(String args[]) {
         int n = 5;
         int number = 1;
@@ -113,7 +113,7 @@ class p8 {
    }
 }
 
-class p9 {
+class pat9 {
     public static void main(String args[]) {
         int n = 5;
 
