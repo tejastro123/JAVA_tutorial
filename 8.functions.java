@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class L7 {
+class L7 {
    //A METHOD to calculate sum of 2 numbers - a & b
     public static int sum(int a, int b) {
        return a + b;
@@ -12,6 +12,7 @@ public class L7 {
        return a*b;
     }
 
+    @SuppressWarnings("UnnecessaryReturnStatement")
     public static void printFactorial(int n) {
         if(n < 0) {
            System.out.println("Invalid Number");

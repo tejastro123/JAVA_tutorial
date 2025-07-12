@@ -1,7 +1,7 @@
 // time complexity
-
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 class L9 { 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -15,6 +15,7 @@ class L9 {
     }
 } // tc=O(n^2)
 
+@SuppressWarnings("unused")
 class a1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,6 +30,7 @@ class a1{
     }
 } // tc=O(n*m)
 
+@SuppressWarnings("unused")
 class a2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -49,7 +51,7 @@ class a2 {
 
 
 // space complexity
-
+@SuppressWarnings("unused")
 class a3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

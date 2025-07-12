@@ -2,7 +2,8 @@
 
 import java.util.Scanner;
 
-class array {
+@SuppressWarnings("unused")
+class array1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
@@ -18,6 +19,7 @@ class array {
     }
 }
 
+@SuppressWarnings("unused")
 class A1 {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
@@ -37,6 +39,7 @@ class A1 {
    }
 }
 
+@SuppressWarnings("unused")
 class A2 {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
@@ -67,6 +70,7 @@ class A2 {
 }
 
 
+@SuppressWarnings("unused")
 class A3 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);

@@ -2,6 +2,7 @@
 
 import java.util.*;
 
+@SuppressWarnings("unused")
 class TwoDArrays {
    public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
@@ -29,6 +30,7 @@ class TwoDArrays {
    }
 }
 
+@SuppressWarnings("unused")
 class twoDsearch {
    public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
@@ -57,6 +59,7 @@ class twoDsearch {
 }
 
 
+@SuppressWarnings("unused")
 class SpiralPrint {
     public static void main(String args[]) {
 
@@ -105,6 +108,7 @@ class SpiralPrint {
 }
 
 
+@SuppressWarnings("unused")
 class transpose {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);

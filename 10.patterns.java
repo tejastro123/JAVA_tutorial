@@ -1,5 +1,6 @@
 //patterns
 
+@SuppressWarnings("unused")
 class pat1 {
     public static void main(String args[]) {
         int m = 5;
@@ -13,6 +14,7 @@ class pat1 {
     }
 }
 
+@SuppressWarnings("unused")
 class pat2 {
     public static void main(String args[]) {
         int m = 5;
@@ -30,6 +32,7 @@ class pat2 {
     }
 }
 
+@SuppressWarnings("unused")
 class pat3 {
     public static void main(String args[]) {
         int n = 4;
@@ -43,6 +46,7 @@ class pat3 {
     }
 }
 
+@SuppressWarnings("unused")
 class pat4 {
     public static void main(String args[]) {
         int n = 4;
@@ -56,6 +60,7 @@ class pat4 {
     }
 }
 
+@SuppressWarnings("unused")
 class pat5 {
     public static void main(String args[]) {
         int n = 4;
@@ -72,7 +77,8 @@ class pat5 {
     }
 }
 
-class pat6 {
+@SuppressWarnings("unused")
+class p6 {
     public static void main(String args[]) {
         int n = 5;
       
@@ -85,7 +91,8 @@ class pat6 {
    }
 }
 
-class pat7 {
+@SuppressWarnings("unused")
+class p7 {
     public static void main(String args[]) {
         int n = 5;
       
@@ -98,7 +105,8 @@ class pat7 {
    }
 }
 
-class pat8 {
+@SuppressWarnings("unused")
+class p8 {
     public static void main(String args[]) {
         int n = 5;
         int number = 1;
@@ -113,7 +121,8 @@ class pat8 {
    }
 }
 
-class pat9 {
+@SuppressWarnings("unused")
+class p9 {
     public static void main(String args[]) {
         int n = 5;
 

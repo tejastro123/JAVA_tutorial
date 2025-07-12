@@ -2,7 +2,8 @@
 
 import java.util.*;
 
-class s1 {
+@SuppressWarnings("unused")
+class func1 {
    public static void printSum(int n) {
        int sum = 0;
 
@@ -20,7 +21,8 @@ class s1 {
    }   
 }
 
-class s2 {
+@SuppressWarnings("unused")
+class fun2 {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       int a = sc.nextInt();
@@ -33,7 +35,8 @@ class s2 {
    }   
 }
 
-class s3 {
+@SuppressWarnings("unused")
+class fun3 {
    public static int getGreater(int a, int b) {
       if(a > b) {
           return a;
@@ -49,6 +52,7 @@ class s3 {
    }   
 }
 
+@SuppressWarnings("unused")
 class s4 {
    public static Double getCircumference(Double radius) {
        return 2 * 3.14 * radius;
@@ -60,20 +64,19 @@ class s4 {
    }   
 }
 
+@SuppressWarnings("unused")
 class s5 {
-   public static boolean isElligible(int age) {
-       if(age > 18) {
-           return true;
-       }
-       return false;
-   }
-   public static void main(String args[]) {
+    public static boolean isElligible(int age) {
+        return age > 18;
+    }
+     public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       int age = sc.nextInt();
       System.out.println(isElligible(age));
    }   
 }
 
+@SuppressWarnings("unused")
 class s6 {
    public static void main(String args[]) {
        int positive = 0, negative = 0, zeros = 0;
@@ -105,6 +108,7 @@ class s6 {
    }   
 }
 
+@SuppressWarnings("unused")
 class s7 {
    public static void main(String args[]) {
        System.out.println("Enter x");
@@ -125,6 +129,7 @@ class s7 {
    }   
 }
 
+@SuppressWarnings("unused")
 class s8 {
    public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);
@@ -143,6 +148,7 @@ class s8 {
    }   
 }
 
+@SuppressWarnings("unused")
 class s9 {
    public static void main(String args[]) {
        Scanner sc = new Scanner(System.in);

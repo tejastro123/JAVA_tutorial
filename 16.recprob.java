@@ -1,7 +1,9 @@
 import java.util.*;
 
+@SuppressWarnings("unused")
 class tower_of_hanoi {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of disks: ");
@@ -23,6 +25,7 @@ class tower_of_hanoi {
 }
 
   
+@SuppressWarnings("unused")
 class string_reverse {
 
     public static String revString(String str) {
@@ -44,6 +47,7 @@ class string_reverse {
 }
 
 
+@SuppressWarnings("unused")
 class first_last_occurence {
 
     public static int first = -1;
@@ -74,6 +78,7 @@ class first_last_occurence {
 }
 
 
+@SuppressWarnings("unused")
 class checksorted {
     public static boolean checkIfIncreasing(int arr[], int idx) {
 
@@ -99,6 +104,7 @@ class checksorted {
 }
 
 
+@SuppressWarnings("unused")
 class push_x_end {
     //to add all 'x' to the end of the string
     public static String addX(int count) {
@@ -130,6 +136,7 @@ class push_x_end {
 }
 
 
+@SuppressWarnings("unused")
 class rev_dup {
     public static String removeDuplicates(String str, int idx, boolean present[]) {
         if(idx == str.length()) {
@@ -153,6 +160,7 @@ class rev_dup {
 }
 
 
+@SuppressWarnings("unused")
 class subseq {
     public static void printSubseq(String str, int idx, String res) {
         if(idx == str.length()) {
@@ -173,6 +181,7 @@ class subseq {
 }
 
 
+@SuppressWarnings("unused")
 class unique_subseq {
     public static void printSubseq(String str, int idx, String res, HashSet<String> allSubseq) {
         if(idx == str.length()) {
@@ -198,6 +207,7 @@ class unique_subseq {
 }
 
 
+@SuppressWarnings("unused")
 class keypad {
     public static String keypad[] = {".", "abc", "def", "ghi", "jkl", "mno", "pqrs",
                                     "tu", "vwx", "yz"};

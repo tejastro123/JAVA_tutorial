@@ -1,5 +1,6 @@
 
 
+@SuppressWarnings("unused")
 class printnumbers{
 
     public static void printnum(int n) {
@@ -18,6 +19,7 @@ class printnumbers{
     }
 }
 
+@SuppressWarnings("unused")
 class printsum {
 
     public static void printSum(int n, int sum) {
@@ -37,6 +39,7 @@ class printsum {
     }
 }
 
+@SuppressWarnings("unused")
 class printfactorial {
 
     public static int factorial(int n) {
@@ -54,6 +57,7 @@ class printfactorial {
     }
 }
 
+@SuppressWarnings("unused")
 class printfibonacci {
     public static void printFibonacci(int n, int a, int b) {
         if (n == 0) {
@@ -69,6 +73,7 @@ class printfibonacci {
     }
 }
 
+@SuppressWarnings("unused")
 class power_stackheight_n {
     public static int printpower(int x, int n) {
         if (n == 0) {
@@ -89,6 +94,7 @@ class power_stackheight_n {
     }
 }
 
+@SuppressWarnings("unused")
 class power_stackheight_logn {
     public static int printpower(int x, int n) {
         if (n == 0) {

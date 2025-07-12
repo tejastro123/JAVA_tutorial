@@ -1,5 +1,6 @@
-import java.util.Scanner;
+import java.util.*;
 
+@SuppressWarnings("unused")
 class Strings {
     //strings declaration
     String name1 = "tejas";
@@ -72,6 +73,7 @@ class Strings {
 
 // 1. Take an array of Strings input from the user & find the cumulative (combined) length of all those strings.
 
+@SuppressWarnings("unused")
 class Strings1 {
     public static void main(String args[]) {
 
@@ -92,6 +94,7 @@ class Strings1 {
 
 // 2.Input a string from the user. Create a new string called ‘result’ in which you will replace the letter ‘e’ in the original string with letter ‘i’. 
 
+@SuppressWarnings("unused")
 class Strings2 {
     public static void main(String args[]) {
         System.out.println("Enter a string:");
@@ -111,6 +114,7 @@ class Strings2 {
 
 // 3. Input an email from the user. You have to create a username from the email by deleting the part that comes after ‘@’. Display that username to the user.
 
+@SuppressWarnings("unused")
 class Strings3 {
     public static void main(String args[]) {
         System.out.println("Enter your email:");

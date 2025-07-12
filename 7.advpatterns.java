@@ -1,5 +1,6 @@
 //advanced patterns
 
+@SuppressWarnings("unused")
 class p1 {
    public static void main(String args[]) {
        int n = 4;
@@ -46,6 +47,7 @@ class p1 {
    }   
 }
 
+@SuppressWarnings("unused")
 class p2 {
    public static void main(String args[]) {
        int n = 5;
@@ -67,6 +69,7 @@ class p2 {
    }   
 }
 
+@SuppressWarnings("unused")
 class p3 {
    public static void main(String args[]) {
        int n = 5;
@@ -88,6 +91,7 @@ class p3 {
    }   
 }
 
+@SuppressWarnings("unused")
 class p4 {
    public static void main(String args[]) {
        int n = 5;
@@ -113,6 +117,7 @@ class p4 {
    }   
 }
 
+@SuppressWarnings("unused")
 class p5 {
    public static void main(String args[]) {
        int n = 5;

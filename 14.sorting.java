@@ -2,6 +2,7 @@
 // bubble sort 
 import java.util.*;
 
+@SuppressWarnings("unused")
 class BubbleSort {
 
     public static void printArray(int[] arr) {
@@ -56,6 +57,7 @@ class BubbleSort {
 
 
 // selection sort
+@SuppressWarnings("unused")
 class SelectionSort {
 
     public static void printArray(int[] arr) {
@@ -109,6 +111,7 @@ class SelectionSort {
 
 
 // insertion sort
+@SuppressWarnings("unused")
 class InsertionSort {
 
     public static void printArray(int[] arr) {
