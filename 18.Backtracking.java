@@ -1,5 +1,4 @@
-@SuppressWarnings("unused")
-class Recursion3 {
+class Permutation {
 
    public static void printPermutation(String str, int idx, String perm) {
        if(str.length() == 0) {
