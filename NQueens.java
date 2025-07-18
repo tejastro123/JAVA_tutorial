@@ -65,7 +65,7 @@ class NQueens {
     }
 
     public static void main(String[] args) {
-        int n = 5;  // You can change this to any n ≥ 1
+        int n = 8;  // You can change this to any n ≥ 1
         solveNQueens(n);
     }
 }
